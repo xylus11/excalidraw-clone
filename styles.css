@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#root{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#top{
+    position: absolute;
+    width: 95%;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between
+    ;
+    padding: 20px;
+    z-index: 10;
+
+}
+.options{
+    padding: 8px;
+border-radius: 12px;
+box-shadow: 0.1px 0.1px 8px rgb(209, 208, 208);
+
+
+
+   
+   
+}
+#top .btn {
+    border: none;
+    font-size: medium;
+    padding: 8px;
+    background-color: transparent;
+    color:rgb(7, 11, 58);
+    
+    
+}
+#top .btn:hover  {
+   background-color:rgb(229, 231, 245);
+   border-radius: 10px;
+   
+   
+    
+    
+}
+
+.active{
+    background-color:rgb(96, 99, 125) !important;
+    color:rgb(255, 255, 255) !important;
+    border-radius: 10px;
+}
